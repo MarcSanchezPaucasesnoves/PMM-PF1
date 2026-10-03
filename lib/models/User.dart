@@ -30,7 +30,7 @@ class User {
     return _saldo;
   }
 
-
+  /// Throws UserException
   void recarregarSaldo(double quantitat){
     if (quantitat < 0) {
       throw UserException("La quantitat a recarregar no pot ser menor a zero.");
