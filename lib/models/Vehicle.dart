@@ -1,4 +1,6 @@
-abstract class Vehicle {
+import 'package:pf1/models/GPSLocation.dart';
+
+abstract class Vehicle with GPSLocation{
   late String id;
   late int bateriaPercentatge;
   late bool enUs;
