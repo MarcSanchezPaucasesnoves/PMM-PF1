@@ -18,4 +18,9 @@ abstract class Vehicle with GPSLocation{
   }
 
   double calcularCostReserva(int minuts);
+
+  @override
+  String toString() {
+    return id;
+  }
 }

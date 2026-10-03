@@ -7,7 +7,7 @@ mixin GPSLocation {
     longitud = lng;
   }
 
-  Record obtenirCoordenades(){
+  ({double? lat, double? lng}) obtenirCoordenades(){
     return (lat: latitud, lng: longitud);
   }
 }
