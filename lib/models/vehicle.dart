@@ -1,4 +1,4 @@
-import 'package:pf1/models/GPSLocation.dart';
+import 'package:pf1/models/gps_location.dart';
 
 abstract class Vehicle with GPSLocation{
   late String id;

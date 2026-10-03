@@ -1,5 +1,5 @@
-import 'package:pf1/models/User.dart';
-import 'package:pf1/models/Vehicle.dart';
+import 'package:pf1/models/user.dart';
+import 'package:pf1/models/vehicle.dart';
 
 class Patinet extends Vehicle{
   late int velocitatMaxima;

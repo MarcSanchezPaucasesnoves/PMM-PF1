@@ -1,8 +1,8 @@
 // import 'package:flutter/material.dart';
-import 'package:pf1/models/Cotxe.dart';
-import 'package:pf1/models/Patinet.dart';
-import 'package:pf1/models/User.dart';
-import 'package:pf1/models/Vehicle.dart';
+import 'package:pf1/models/cotxe.dart';
+import 'package:pf1/models/patinet.dart';
+import 'package:pf1/models/user.dart';
+import 'package:pf1/models/vehicle.dart';
 
 void main() {
   // 1. Inicialitzacio

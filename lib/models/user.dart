@@ -1,4 +1,4 @@
-import 'package:pf1/exceptions/UserException.dart';
+import 'package:pf1/exceptions/user_exception.dart';
 
 class User {
   late String _id, _nomComplet, correu;
@@ -28,6 +28,10 @@ class User {
 
   double get saldo{
     return _saldo;
+  }
+
+  String get nomComplet{
+    return _nomComplet;
   }
 
   /// Throws UserException

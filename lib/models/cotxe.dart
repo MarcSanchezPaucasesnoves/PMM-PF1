@@ -1,4 +1,4 @@
-import 'package:pf1/models/Vehicle.dart';
+import 'package:pf1/models/vehicle.dart';
 
 class Cotxe extends Vehicle{
   late int places;
