@@ -1,5 +1,3 @@
-// import 'dart:nativewrappers/_internal/vm/lib/ffi_native_type_patch.dart';
-
 import 'package:pf1/exceptions/UserException.dart';
 
 class User {
